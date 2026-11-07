@@ -12,7 +12,7 @@ def lambda_handler(event, context):
     whatsapp_access_token = os.getenv('WHATSAPP_TOKEN')
     phone_number_id = os.getenv('PHONE_NUMBER_ID')  # Ajoutez PHONE_NUMBER_ID en variable d'environnement
     # Configurer les détails du message
-    to_number = "whatsapp:+221777421973"  # Numéro du destinataire (format international)
+    to_number = "whatsapp:00000000"  # Numéro du destinataire (format international)
     journal_name = "L'observateur'"           # Nom du journal
     access_code = "256sc"                # Code d'accès
     
