@@ -57,8 +57,8 @@ def parse_dynamodb_type(dynamodb_value):
         return str(dynamodb_value)
 
 def process_item(code, item_name):
-    sender = "amath@anitnow.com"
-    recipient = "amath@anitnow.com"
+    sender = "exemple1@exemple.com"
+    recipient = "exemple1@exemple.com"
     subject = f"Code d'accès pour {item_name}"
     body_text = f"Votre code d'accès pour le journal {item_name} est: {code}"
     
